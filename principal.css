@@ -1,0 +1,228 @@
+.website-wrapper{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.encabezado{
+	background-color: black;
+	position: relative;
+}
+
+.encabezado_logo{
+	display: inline-block;
+}
+
+.searchform{
+	position: relative;
+    
+}
+
+.searchform input[type=text] {
+	background-color: white;
+	font-size: 15px;
+	height: 46px;
+	width: 100%;
+	max-width: 100%;
+	border: 2px solid rgba(252, 175, 23, .75);
+	vertical-align: middle;
+	padding: 0 15px;
+}
+
+.whb-column .woodmart-search-form input[type=text] {
+	min-width: 290px;
+}
+
+input {
+display: inline-block;
+}
+
+#par1{
+	color: white;
+	text-align: right;
+}
+
+.footer-container{
+	background-color: black;
+}
+
+img.logo{
+	min-height: 1px;
+	vertical-align: middle;
+	height: auto;
+	max-width: 100%
+}
+
+#parrf{
+	text-align: left;
+	color:white;
+	font-size: 12px;
+}
+
+#elemento2{
+    text-align: left;
+}
+
+.alinearCentradoY{
+    display: flex;
+    align-items: center;
+}
+
+.enlacesPrincipales:hover{
+	color: #ff6c2f;
+}
+
+.enlacesF{
+	color: #777;
+	text-decoration: none;
+}
+
+.widget_title{
+	font-family: Poppins;
+	font-weight: 600;
+	color: #777;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.nave{
+    text-decoration: none;
+    font-size: large;
+    padding: 0.5%;
+    color: white;
+    font-weight: bold;
+}
+
+.nave:hover{
+    color: #FF4B06;
+    font-weight: normal;
+}
+
+.dropdown-container{
+    position: relative;
+    display: inline;
+
+}
+
+.dropdown-container ul{
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    max-height: 0%;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+.dropdown-container li{
+    border:1px;
+    border-style: solid;
+    border-color: #FF4B06;
+    list-style: none;
+    
+}
+
+.enlacesNav{
+    display: block;
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+}
+
+.enlacesNav:hover{
+    background-color: #dadada;
+    color: #000000;
+}
+
+.dropdown-container:hover ul{
+    max-height:fit-content;
+}
+
+.img{
+	display: block;
+	padding-top: 1px;
+	margin: -1px;
+	width: 100%;
+	min-height: 1px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.imag{
+	display: block;
+	margin: -1px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 1px;
+	height: auto;
+	vertical-align: middle;
+}
+
+#whatsapp{
+    top: 50%;
+    margin-right: 1%;
+    float: right;
+    position: fixed;
+    height: 10%;
+    width: 5%;
+    right: 0px;
+}
+
+#messenger{
+    right: 5px;
+    top: 35%;
+    margin-right: 1%;
+    float: right;
+    position: fixed;
+    height: 8%;
+    width: 4%;
+}
+
+p.texto{
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	font-size: 13;
+	
+}
+
+p.costo{
+	text-align: center;
+	color: #FF4B06;
+	font-weight: bold;
+	font-size: 13;
+}
+
+img.imagen{
+	text-align: center;
+	margin-left: 90;
+}
+
+.imagen{
+	width:150px;
+	height:150px;
+	text-align: center;
+}
+
+
+#menu { float: left; width: 25%; background-color: #e3f2ff; }
+#menu img { margin: 5%; cursor: pointer; text-align: center;}
+#principal { float: left; width: 75%; }
+#visor { width: 60%; margin: 10%; }
+#visor img { width: 100%; }
+
+div #titulo{
+	text-align: center;
+	font-size: 18px;
+	color: black;
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<title> P&aacute;gina Principal </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="principal.css">
+<style>
+ .enlaces{
+            text-decoration: none;
+                color: white;
+            }
+
+            .enlaces:hover{
+                color:#f05023;
+            }
+			
+			.enlaceP{
+			color: black;
+			font-weight: bold;
+			font-size: 22px;
+			text-align: center;
+			color: black;
+			text-decoration: underline;
+			text-decoration-color: green;
+			}
+			
+			#logos{
+			text-align: center;
+			display: block;
+			vertical-align: middle;
+			}
+			
+			#corazon{
+			width:40%;
+			height:15%;
+			}
+			
+			#cartera{
+			width:40%;
+			height:15%;
+			}
+			
+			#logo{
+			height:55%;
+			}
+</style>
+</head>
+<body>
+<div class="website-wrapper">
+<header> 
+<div class="encabezado">
+<div class="row" style="padding-left: 5%; padding-right: 5%;" >
+<div class="elemento col-md-3 alinearCentradoY">
+<img id="logo" src="logo_store.png" alt="logo"/>
+</div>
+
+                <div class="elemento col-md-6 alinearCentradoY">
+				<form role="search" class="searchform">
+                    <input type="search" name="txtBusqueda" id="txtBusqueda" placeholder="¿Qué equipo es de tu interés?" style="height: 35%; font-size:larger; border-color: orange;"  size="30">
+                    <select name="select" style="font-size:larger; height: 35%;">
+                        <option value="value1">Elige una categoría</option>
+                        <option value="value2">Apple</option>
+                        <option value="value3">Huawei</option>
+                        <option value="value4">Laptops</option>
+                        <option value="value5">Lenovo</option>
+                        <option value="value6">Realme</option>
+                        <option value="value7">Samsung</option>
+                        <option value="value8">Tablets</option>
+                        <option value="value9">Xiaomi</option>
+                    </select>
+                    <input type="submit" value="          " style="font-size:larger; height: 35%; background-color:#FF4B06; background-image: url(iconos/lupaBlanca.png); background-repeat: no-repeat; background-position: center;">
+                </form> </div>
+                <div class="elemento col-md-3 alinearCentradoY">
+                    <a href="../login/login.html" class="enlaces" style="padding: 4%;">Ingresar/Registrar</a>
+                    <a href="https://www.celularquito.com/wishlist/" style="display: flex; justify-content: center;"> <img id="corazon" src="iconos/corazon.png" alt="corazón"/> </a>
+                    <a href="https://www.celularquito.com/carrito/" class="enlaces" style="display: flex;"> <img id="cartera" src="iconos/cartera.png" alt="cartera"/>$0.00</a>                  
+                </div>
+				</div>
+	
+				<div style="height: 1px; background-color: white; padding:0.1%"></div>
+
+            <div style="padding: 1%;">
+                
+                    <div class="dropdown-container" style="background-color:#FF4B06; font-weight: bold; color: white;">Selecciona una categoría
+                    <ul>
+                        <li><a class="enlacesNav">Apple</a></li>
+                        <li><a class="enlacesNav">Cases y protección</a></li>
+                        <li><a class="enlacesNav">Huawei</a></li>
+                        <li><a class="enlacesNav">Laptops</a></li>
+                        <li><a class="enlacesNav">Lenovo</a></li>
+                        <li><a class="enlacesNav">Realme</a></li>
+                        <li><a class="enlacesNav">Samsung</a></li>
+                        <li><a class="enlacesNav">Tablets</a></li>
+                        <li><a class="enlacesNav">Xiaomi</a></li>
+                    </ul>
+                    </div>
+					 <div style="display: inline-block; width: 13%;">
+                        
+                    </div>
+					<div style="display:inline;">
+                        <a class="nave" href="PaginaPrincipal.html" style="color:#FF4B06">Inicio</a>
+                        <a class="nave" href="../empresa/SeccionEmpresa.html" >Empresa</a>
+                        <a class="nave" href="../tienda/public_html/shop.html">Tienda</a>
+                        <a class="nave" href="../blog/public_html/blog.html">Blog</a>
+                        <a class="nave" href="../Contactanos/Contactanos.html">Contáctanos</a>
+                        <a class="nave" href="../PreciosEnEfectivo/PreciosEnEfectivo.html">Precio en efectivo</a>
+</div>
+</div>
+<div id="fondoBlanco">
+            <a href="https://web.whatsapp.com/send?phone=593997288410&text=Hola%20Sergio,%20tu%20eres%20un%20gran%20amigo"><img src="iconos/whatsapp.png" alt="whatsapp" id="whatsapp"></a>
+            <a href="https://www.messenger.com/t/100002354674154/"><img src="iconos/messenger.png" alt="messenger" id="messenger"></a>
+            
+        </div>
+</div> </header> <br> <br>
+
+
+<div class="row">
+<div class="elemento col-md-1">
+</div>
+<div class="elemento col-md-11">
+<p style="color: #777; text-align: center;"> CELULAR STORE </p>
+<h4 class="titulo"> PRODUCTOS DESTACADOS </h4>
+<p style="text-align: center; font-size: 16px; color: black;"> Visita nuestra tienda y encuentra incre&iacute;bles equipos </p> <br> <br>
+<p class="enlaceP" style="text-align: center;"> LOS M&Aacute;S VENDIDOS </p> <br> <br> <br> <br>
+<div id="menu">
+<img class="imagen" src="foto1.jpg" name='fotos1' alt='1. APPLE IPHONE 12 PRO - $1,455.00 - 1,579.00' onclick="mifoto(1)"/>
+<p class="texto"> APPLE IPHONE 12 PRO </p>
+<p class="costo"> $1,455.00 - $1,579.00 </p>
+<img class="imagen" src="foto2.jpg" name='fotos2' alt='2. HUAWEI YABLET T3 - $255.00' onclick="mifoto(2)"/>
+<p class="texto"> HUAWEI TABLET T3 </p>
+<p class="costo"> $255.00 </p>
+<img class="imagen" src="foto3.jpg" name='fotos3' alt='3. IPHONE 11 - $845.00 - $919.00' onclick="mifoto(3)"/>
+<p class="texto"> IPHONE 11 </p>
+<p class="costo"> $845.00 - $919.00 </p>
+<img class="imagen" src="foto4.jpg" name='fotos4' alt='4. SAMSUNG GALAXY NOTE 20 ULTRA - $1,235.00 - $1,330.00' onclick="mifoto(4)"/>
+<p class="texto"> SAMSUNG GALAXY NOTE 20 ULTRA</p>
+<p class="costo"> $1,235.00 - $1,330.00 </p>
+<img class="imagen" src="foto5.jpg" name='fotos5' alt='5. XIAOMI REDMI NOTE 10 - $284.00' onclick="mifoto(5)"/>
+<p class="texto"> XIAOMI REDMI NOTE 10 </p>
+<p class="costo"> $284.00 </p>
+<img class="imagen" src="foto6.jpg" name='fotos6' alt='6. IPHONE SE - $599.00 - $690.00' onclick="mifoto(6)"/>
+<p class="texto"> IPHONE SE </p>
+<p class="costo"> $599.00 - $690.00 </p>
+<img class="imagen" src="foto7.jpg" name='fotos7' alt='7. LAPTOP LENOVO CORE I3 - $599.00' onclick="mifoto(7)"/>
+<p class="texto"> LAPTOP LENOVO CORE I3 - 8130U </p>
+<p class="costo"> $599.00 </p>
+<img class="imagen" src="foto8.jpg" name='fotos8' alt='8. LAPTOP LENOVO CORE I7 - $1,235.00' onclick="mifoto(8)"/>
+<p class="texto"> LAPTOP LENOVO CORE I7 - 9874U </p>
+<p class="costo"> $1,235.00 </p>
+</div>
+<div id="principal">
+<div id="visor">
+   <img src="foto1.jpg" alt='1. APPLE IPHONE 12 PRO - $1,455.00 - 1,579.00' name='fotoVisor'/>
+   <div id="titulo"> 1. APPLE IPHONE 12 PRO - $1,455.00 - 1,579.00 </div>
+   </div>
+</div>
+</div>
+</div>
+<br> <br> <br> 
+
+
+
+<div class="row">
+<div class="elemento col-md-1">
+</div>
+<div class="elemento col-md-11">
+<p style="color: #777; text-align: center;"> CELULAR STORE </p>
+<h4 class="titulo"> ENCUENTRA EL EQUIPO QUE TE GUSTE, T&Uacute; ELIGES LA MARCA </h4>
+<p style="text-align: center; font-size: 16px; color: black;"> Los Mejores Equipos Tecnol&oacute;gicos en Ecuador </p> <br>
+<div class="elemento col-md-1">
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="elemento col-md-1">
+</div>
+<div class="elemento col-md-5">
+<img id="apple" src="apple.png" alt="apple"  width="550" height="588"/>
+</div>
+<div class="elemento col-md-5">
+<div class="row">
+<div class="elemento col-md-6">
+<img class="img" src="galaxy-serie-A.png" alt="galaxy-serie-A" width="300" height="300"/>
+</div>
+<div class="elemento col-md-6">
+<img class="img" src="galaxy-serie-NOTE.png" alt="galaxy-serie-NOTE" width="300" height="300"/>
+</div>
+<div class="row">
+<div class="elemento col-md-6">
+<img class="imag" src="galaxy-serie-S.png" alt="galaxy-serie-S" width="410" height="400"/>
+</div>
+<div class="elemento col-md-6">
+<img class="imag" src="huawei.png" alt="huawei" width="300" height="300"/>
+</div>
+</div>
+</div>
+</div>
+<div class="elemento col-md-1">
+</div>
+</div>
+<br> <br> <br> <br>
+
+<div class="row">
+<div class="elemento col-md-2">
+</div>
+<div class="elemento col-md-8">
+<p style="color: #777; text-align: center;"> CELULAR STORE </p>
+<h4 class="titulo"> PRODUCTOS RECIENTES </h4>
+<p style="text-align: center; font-size: 16px; color: black;"> Visita nuestra tienda y encuentra incre&iacute;bles equipos </p>
+<img id="logos" src="logos.png" alt="logos" width="1000"/>
+<p style="color: #777; font-weight:bold;"> CELULAR STORE </p>
+<p style="font-size:50px; color:black; font-weight:bold;"> EVOLUCI&Oacute;N  <br>
+TECNOL&Oacute;GICA</p>
+</div>
+<div class="elemento col-md-2">
+</div>
+</div>
+<br> <br> <br> <br>
+                                                                                                                       
+<footer class="footer-container" style="display:block;">
+<div class="row">
+<div class="elemento col-md-1">
+</div>
+<div class="elemento col-md-4">
+<div class="footer-logo" style="max-width: 80%; margin-bottom: 10px;">
+<img class="logo" src="logo_store.png" alt="logo" style="margin-bottom: 10px;"/>
+<p style="text-align: justify; color:#777;">
+"Somos una empresa dedicada a la comercializaci&oacute;n y distribuci&oacute;n de
+equipos tecnol&oacute;gicos celulares, tablets, laptops, accesorios ofreciendo 
+una soluci&oacute;n a la demanda local y nacional.&nbsp;" </p>
+<div style="line-height: 2; text-align: justify; color:#777;">
+<i class="fa">
+</i>
+Direcci&oacute;n: Amazonas N36 y Naciones
+Unidas Centro Comercial Caracol local 98
+<br>
+<i class="fa">
+</i>
+Tel&eacute;fono: +593 987 392 520
+<br>
+<i class="fa">
+</i>
+Email: ventas@celularstore.com
+</div>
+</div>
+</div>
+<div id="elemento2" class="elemento col-md-3">
+<h5 class="widget-title"> BLOGS RECIENTES </h5>
+<p id="parf"> 
+Nueva Secci&oacute;n 2021 </p>
+<p id="parrf"> abril 10, 2021</p> <p style="color:#777; font-size: 12px;"> No comments </p>   
+</div>
+<div class="elemento col-md-4">
+<h5 class="widget-title"> ENLACES &Uacute;TILES </h5> <br>
+<a class="enlacesF" href=" "> Pol&iacute;ticas de Privacidad </a> <br> <br>
+<a class="enlacesF"  href=" "> T&eacute;rminos y Condiciones </a> <br> <br>
+<a class="enlacesF"  href=" "> Cont&aacute;ctanos </a> <br> <br>
+<a class="enlacesF"  href=" "> Preguntas Frecuentes </a> <br> <br>
+<a class="enlacesF"  href=" "> Pagos en efectivo </a>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="elemento col-md-1">
+</div>
+<div class="elemento col-md-4">
+<p style="color: #777; font-weight: lighter;"> © Celular Store 2021. Todos los Derechos Reservados </p> 
+</div>
+</div>
+</footer>
+</div>
+<script type="text/javascript">
+window.onload = function() { //tras cargar la página ...
+visor1=document.getElementById("visor"); //referencia al visor
+mititulo=document.getElementById("titulo"); //referencia al pie de foto
+}
+function mifoto(num) { //cambiar la imagen
+         f="foto"+num+".jpg"; //ruta de la nueva imagen
+         document.images["fotoVisor"].src=f; //cambiar imagen
+         t=document.images["fotos"+num].alt; //texto de pie de foto
+         mititulo.innerHTML=t; //cambiar pie de foto
+		 }
+</script>
+</body>
+</html>
